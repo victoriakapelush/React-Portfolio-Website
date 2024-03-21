@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+@font-face {
+  font-family: 'Grandslang Roman';
+  src: url('./assets/fonts/grandslang-roman.otf') format('opentype');
+}
+
+:root {
+  --charcoal: #1a1818;
+  --offwhite: #ece7e1;
+  --coral: #cf8479;
+  --blue: #3e52ae;
+  --nude: #f1d5bf;
+  --red: #ff471a;
+  --pinkdust: #c69e91;
+  --white: white;
+  --black: black;
+  --new-red: orangered;
+  --pink: #f8c9e8;
+  --new-pink: #ff94c1;
+}
+
+#root {
+  height: 100%;
+}
+
+.index-page-container {
+  justify-content: space-between;
+  height: 100%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: var(--offwhite);
+  font-family: "Montserrat", sans-serif;
+}
+
+.links {
+  z-index: 100;
+  color: var(--charcoal);
+  text-align: left;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border: 0 solid #000;
+  font-family: "Grandslang roman", sans-serif;
+  font-size: 11vw;
+  font-weight: 300;
+  line-height: .95em;
+  text-decoration: none;
+  transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
+  display: block;
+  position: relative;
+}
+
+.links:hover {
+  transform: skewX(-7deg) translateX(15px);
+}
+
+.name {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.occupation {
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.9em;
+  position: relative;
+  color: var(--charcoal);
+}
+
+.nav-left-item {
+  transform: rotate(-90deg);
+  margin: 1rem 0;
+  color: black;
+}
+
+.nav-links-upper {
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items-container {
+  justify-content: space-between;
+  margin: 4rem 1rem;
+  align-items: center;
+}
+
+.border {
+  width: 1px;
+  height: 100px;
+  background-color: var(--charcoal);
+  margin-left: .1rem;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: block;
+  color: black;
+}
+
+.socials {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  cursor: pointer;
+  font-size: 11px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+.socials:hover {
+  text-decoration: line-through;
+  color: black;
+}
+
+.main-info {
+  justify-content: flex-start;
+  gap: 2rem;
+  align-self: flex-end;
+  margin-top: auto;
+  margin-bottom: 10rem;
+  margin-right: 8rem;
+}
+
+.name-box {
+  justify-content: flex-start;
+  align-self: flex-end;
+  margin-top: auto;
+  margin-bottom: 1.2rem;
+}
+
+h1, p {
+  margin: 0.3rem 0;
+}
+
+
+
