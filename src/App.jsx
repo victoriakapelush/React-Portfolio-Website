@@ -1,7 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { useState } from 'react'
 import { Link } from 'react-router-dom';
-
 
 function App() {
   return (
@@ -9,13 +7,13 @@ function App() {
       <div className='flex-column nav-items-container'>
         <div className='flex-column nav-links-upper'>
           <div className='nav-left-item'>
-            <Link to="/" className='socials'>LI</Link>
+            <Link to="https://www.linkedin.com/in/victoriakapelush/" target="_blank" className='socials'>LI</Link>
           </div>
           <div className='nav-left-item'>
-            <Link to="/" className='socials'>X</Link>
+            <Link to="https://twitter.com/vicky_kape" target='_blank' className='socials'>X</Link>
           </div>
           <div className='nav-left-item'>
-            <Link to="/" className='socials'>GH</Link>
+            <Link to="https://github.com/victoriakapelush" target='_blank' className='socials'>GH</Link>
           </div>        
           <div className='border'></div>
         </div>
@@ -25,12 +23,12 @@ function App() {
         <div className='flex-column name-box'>
           <h1 className='name'>Victoria Kapelush</h1>
           <p className='occupation'>Software Developer / Website Designer </p>
-          <p className='occupation'>Currently working freelance as a web developer</p>
+          <p className='occupation'>Currently working as a freelance web developer</p>
         </div>
         <div>
-          <Link to="/" className='links'>Work</Link>
-          <Link to="/" className='links'>About</Link>
-          <Link to="/" className='links'>Contact</Link>
+          <Link to="/work" className='links'>Work</Link>
+          <Link to="/about" className='links'>About</Link>
+          <Link to="/contact" className='links'>Contact</Link>
         </div>
       </div>
     </div>
