@@ -259,4 +259,49 @@ h1, p {
   font-weight: 400;
   line-height: 1.9em;  width: 80%;
   width: 80%;
+  font-size: .9rem;
+}
+
+.about-content h4 {
+  text-align: left;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Grandslang roman, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.75em;
+  position: relative;
+}
+
+q {
+  margin-top: 1rem;
+  font-size: 36px;
+  padding-bottom: 2%;
+  font-family: Grandslang roman, sans-serif;
+  font-weight: 300;
+  line-height: 1.3em;
+  width: 80%;
+}
+
+.cv {
+  background-color: var(--charcoal);
+  color: var(--offwhite);
+  letter-spacing: 1px;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  font-family: Grandslang roman, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  transition: padding .25s ease-in-out;
+  width: 6rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.cv:hover {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-decoration: none;
 }
