@@ -15,7 +15,7 @@ function Contact() {
       </div>
       <div className='flex-column contact-main-info'>
         <h1>Hello.</h1>
-        <p className='paragraph'>Need a beautiful, well-structured website that you can <br/>own and maintain yourself? Get in touch.</p>
+        <p className='paragraph'>Got a vision but need a helping hand to make it a reality? <br />Get in touch.</p>
         <p>Email: <span className='email'>victoriakapelush@gmail.com</span></p>
         <p>On the Internet: <a href="https://www.linkedin.com/in/victoriakapelush/" target='_blank' className='email'>LinkedIn</a> / <a className='email' href="https://twitter.com/vicky_kape" target='_blank'>Twitter</a> / <a className='email' href="https://github.com/victoriakapelush" target='_blank'>Github</a></p>
       </div>

@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import Contact from './Contact.jsx'
-import About from './About.jsx'
-import Work from './Work.jsx'
+import App from './components/App.jsx'
+import Contact from './components/Contact.jsx'
+import About from './components/About.jsx'
+import Work from './components/Work.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import './index.css'
+import './style/index.css'
 
 const router = createBrowserRouter([
   {
