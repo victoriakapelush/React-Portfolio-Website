@@ -21,16 +21,16 @@ function Work() {
           <p>With my current experience as a full-stack developer, <br />I'm still learning and gaining new skills every day.</p>
         </div>
         <div className='flex-column work-links'>
-          <a href="https://narrative-blog.onrender.com">Narrative</a>
+          <a href="https://narrative-blog.onrender.com" target='_blank'>Narrative</a>
           <div>Full-Stack MERN API blog</div>
-          <a href="https://narrative-blog.onrender.com">ChatSphere</a>
-          <div>Full-Stack MERN API blog</div>
-          <a href="https://narrative-blog.onrender.com">Beauty Alchemy</a>
-          <div>Full-Stack MERN API blog</div>
-          <a href="https://narrative-blog.onrender.com">Insta Clone</a>
-          <div>Full-Stack MERN API blog</div>
-          <a href="https://narrative-blog.onrender.com">Narrative</a>
-          <div>Full-Stack MERN API blog</div>
+          <a href="https://chatsphere-3sxt.onrender.com" target='_blank'>Chatsphere</a>
+          <div>Full-Stack MERN Messaging App</div>
+          <a href="https://beauty-alchemy.netlify.app" target='_blank'>Beauty Alchemy</a>
+          <div>React Online Store</div>
+          <a href="https://narrative-blog.onrender.com" target='_blank'>Insta Clone</a>
+          <div>Full-Stack MERN Social Media App</div>
+          <a href="https://photo-tagging-app-1.onrender.com" target='_blank'>Where's Waldo?</a>
+          <div>Full-Stack MERN Photo-tagging App</div>
         </div>
       </div>
     </div>
