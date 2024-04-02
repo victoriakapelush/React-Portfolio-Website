@@ -14,7 +14,7 @@ function About() {
         </div>
         <p className='copyright nav-left-item'>©/2024</p>
       </div>
-      <div className='flex-row about-main-info'>
+      <div className='flex-row about-main-info about-main-mobile'>
         <div className='about-content flex-column'>
             <h1>About</h1>
             <h2>I'm Victoria. A developer, designer and problem solver.</h2>

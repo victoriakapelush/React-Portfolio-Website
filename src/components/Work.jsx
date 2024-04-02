@@ -21,16 +21,16 @@ function Work() {
           <p>With my current experience as a full-stack developer, <br />I'm still learning and gaining new skills every day.</p>
         </div>
         <div className='flex-column work-links'>
-          <a href="https://narrative-blog.onrender.com" target='_blank'>Narrative</a>
-          <div>Full-Stack MERN API blog</div>
-          <a href="https://chatsphere-3sxt.onrender.com" target='_blank'>Chatsphere</a>
-          <div>Full-Stack MERN Messaging App</div>
-          <a href="https://beauty-alchemy.netlify.app" target='_blank'>Beauty Alchemy</a>
-          <div>React Online Store</div>
-          <a href="https://narrative-blog.onrender.com" target='_blank'>Insta Clone</a>
-          <div>Full-Stack MERN Social Media App</div>
-          <a href="https://photo-tagging-app-1.onrender.com" target='_blank'>Where's Waldo?</a>
-          <div>Full-Stack MERN Photo-tagging App</div>
+          <a class="link-work-name" href="https://narrative-blog.onrender.com" target='_blank'>Narrative</a>
+          <a className="gh-link" href="https://github.com/victoriakapelush/Narrative" target='_blank'>Full-Stack MERN API blog</a>
+          <a class="link-work-name" href="https://chatsphere-3sxt.onrender.com" target='_blank'>Chatsphere</a>
+          <a className="gh-link" href="https://github.com/victoriakapelush/ChatSphere" target='_blank'>Full-Stack MERN Messaging App</a>
+          <a class="link-work-name" href="https://beauty-alchemy.netlify.app" target='_blank'>Beauty Alchemy</a>
+          <a className="gh-link" href="https://github.com/victoriakapelush/Beauty-Alchemy" target='_blank'>React Online Store</a>
+          <a class="link-work-name" href="https://narrative-blog.onrender.com" target='_blank'>Social Butterfly</a>
+          <a className="gh-link" href="https://github.com/victoriakapelush/Social-Butterfly" target='_blank'>Full-Stack MERN Social Media App</a>
+          <a class="link-work-name" href="https://mksocials.com" target='_blank'>Portfolio Website</a>
+          <a className="gh-link" href="https://github.com/victoriakapelush/Portfolio-Website" target='_blank'>CSS/JavaScript Portfolio Website</a>
         </div>
       </div>
     </div>

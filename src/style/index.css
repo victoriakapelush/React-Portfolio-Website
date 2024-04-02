@@ -332,14 +332,14 @@ br {
   margin-bottom: 10rem;
 }
 
-.work-links a {
+.work-links .link-work-name {
   z-index: 100;
   color: var(--offwhite);
   text-align: left;
   text-transform: uppercase;
   border: 0 solid #000;
   font-family: Grandslang roman, sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: .95em;
   text-decoration: none;
@@ -349,7 +349,7 @@ br {
   padding-top: 4%;
 }
 
-.work-links a:hover {
+.work-links .link-work-name:hover {
   transform: skewX(-7deg) translateX(15px);
 }
 
@@ -357,7 +357,18 @@ br {
   margin-right: 7rem;
 }
 
-/* ANIMATION EFFECT ON LOAD*/
+.gh-link {
+  font-family: Montserrat, sans-serif;
+  color: var(--offwhite);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.gh-link:hover {
+  text-decoration: line-through;
+}
+
+/* ANIMATION EFFECT ON LOAD */
 
 body {
   animation: 1s ease-out 0s 1 FadeIn;
@@ -371,3 +382,79 @@ body {
       opacity:1;
     }
 }
+
+
+/* RESPONSIVE, PHONES */
+
+@media only screen and (max-width: 600px) {
+
+  /* work page */
+  .contact-index-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .work-paragraph, .work-links {
+    align-items: flex-start;
+    align-self: flex-end;
+  }
+
+  .work-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .link-work-name {
+    font-size: 1.5rem !important;
+  }
+
+  .gh-link {
+    font-size: .8rem;
+  }
+
+  /* contact page */
+
+  .contact-main-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    margin: auto 0;
+    padding-left: 4rem;
+  }
+
+  /* about me page */
+
+  .about-main-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-main-mobile img {
+    width: 20rem;
+    height: auto;
+  }
+
+  .about-content {
+    width: 24rem;
+  }
+
+  /* index page */
+
+  .main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .name-box {
+    align-self: flex-start;
+  }
+
+}
+
+
+
