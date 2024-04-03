@@ -383,81 +383,36 @@ body {
     }
 }
 
-
-/* RESPONSIVE, PHONES */
+/* Responsive Styles */
 
 @media only screen and (max-width: 768px) {
-
-  /* work page */
-  .contact-index-page-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .work-paragraph, .work-links {
-    align-self: flex-end;
-  }
-
-  .work-container {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-
-  .link-work-name {
-    font-size: 1.5rem !important;
-  }
-
-  .gh-link {
-    font-size: .8rem;
-  }
-
-  /* contact page */
-
-  .contact-main-mobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-self: center;
-    margin: auto 0;
-    padding-left: 4rem;
-  }
-
-  /* about me page */
-
-  .about-main-mobile {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .about-main-mobile img {
-    width: 20rem;
-    height: auto;
-  }
-
-  .about-content {
-    width: 24rem;
-  }
-
-  /* index page */
-
   .main-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+    margin: auto 2rem 5rem 2rem;
   }
-
-  .links {
-    font-size: 2rem;
-    padding-bottom: .5rem;
+  
+  .work-container {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
-
-  .name-box {
-    align-self: flex-start;
+  
+  .about-main-info {
+    margin: 2rem;
   }
+}
 
+@media only screen and (max-width: 576px) {
+  .main-info {
+    margin: auto 1rem 5rem 1rem;
+  }
+  
+  .work-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .about-main-info {
+    margin: 1rem;
+  }
 }
 
 
