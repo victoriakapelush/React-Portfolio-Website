@@ -396,13 +396,7 @@ body {
   }
 
   .work-paragraph, .work-links {
-    align-items: flex-start;
     align-self: flex-end;
-  }
-
-  .work-paragraph {
-    display: flex;
-    align-items: center;
   }
 
   .work-container {
