@@ -451,7 +451,8 @@ body {
   }
 
   .links {
-    font-size: 3.5rem;
+    font-size: 2rem;
+    padding-bottom: .5rem;
   }
 
   .name-box {
