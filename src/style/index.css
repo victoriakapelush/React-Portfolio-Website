@@ -443,15 +443,15 @@ body {
 
   /* index page */
 
-  .nav-items-container {
-    width:fit-content;
-  }
-
   .main-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
+  }
+
+  .links {
+    font-size: 3.5rem;
   }
 
   .name-box {
