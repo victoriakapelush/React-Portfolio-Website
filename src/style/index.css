@@ -386,7 +386,7 @@ body {
 
 /* RESPONSIVE, PHONES */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-device-width: 480px){
 
   /* work page */
   .contact-index-page-container {
