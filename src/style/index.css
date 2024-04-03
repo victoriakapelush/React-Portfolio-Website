@@ -399,8 +399,8 @@ body {
     align-self: flex-end;
   }
 
-  .work-paragraph p {
-    font-size: .8rem;
+  .work-paragraph {
+    margin: 0;
   }
 
   .work-container {
