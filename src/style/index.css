@@ -393,6 +393,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 50%;
   }
 
   .work-paragraph, .work-links {
@@ -403,7 +404,6 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 50%;
   }
 
   .link-work-name {
