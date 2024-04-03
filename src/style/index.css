@@ -400,6 +400,11 @@ body {
     align-self: flex-end;
   }
 
+  .work-paragraph {
+    display: flex;
+    align-items: center;
+  }
+
   .work-container {
     display: flex;
     flex-direction: column;
