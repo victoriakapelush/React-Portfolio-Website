@@ -393,7 +393,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 50%;
   }
 
   .work-paragraph, .work-links {
