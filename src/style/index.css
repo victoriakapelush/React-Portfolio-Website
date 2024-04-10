@@ -462,13 +462,13 @@ body {
   }
 
   .contact-main-info {
-    padding-left: 3rem;
+    padding-left: 5rem;
     margin: auto 0;
     width: 100%;
   }
 
   .contact-main-info h1 {
-    font-size: 8rem !important;
+    font-size: 6rem !important;
   }
   
 }
