@@ -429,17 +429,17 @@ body {
 
   .contact-main-info {
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
     max-width: 100%;
-    margin-top: 5rem;
+    margin-left: 9rem;
   }
 
   .link-work-name {
-    font-size: 1.5rem !important;
+    font-size: 1.8rem !important;
   }
 
   .gh-link {
-    font-size: .8rem;
+    font-size: .9rem;
   }
 
   
