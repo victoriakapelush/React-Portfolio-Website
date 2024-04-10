@@ -395,6 +395,7 @@ body {
     align-items: center;
     text-align: left;
     width: 100vw;
+    margin: 0 auto;
   }
   
   .links {
