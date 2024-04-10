@@ -394,10 +394,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: right;
-    width: 100vw;
-    margin: auto 0;
-    padding-right: 3rem;
-    padding-left: 6rem;
   }
   
   .links {
