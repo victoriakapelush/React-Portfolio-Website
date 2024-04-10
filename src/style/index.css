@@ -418,6 +418,13 @@ body {
     margin: 0;
     margin-bottom: 10rem;
     height: auto;
+    width: 100%;
+  }
+
+  .work-paragraph {
+    margin: 0;
+    margin-bottom: 3rem;
+    width: 100%;
   }
 
   .contact-main-info {
