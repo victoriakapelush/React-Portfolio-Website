@@ -59,7 +59,7 @@ body {
   text-transform: uppercase;
   border: 0 solid #000;
   font-family: "Grandslang roman", sans-serif;
-  font-size: 11vw;
+  font-size: 10rem;
   font-weight: 300;
   line-height: .95em;
   text-decoration: none;
@@ -76,7 +76,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-size: .9rem;
   font-weight: 600;
   color: var(--charcoal);
 }
@@ -85,7 +85,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: .8rem;
   font-weight: 400;
   line-height: 1.9em;
   position: relative;
@@ -398,6 +398,7 @@ body {
   
   .links {
     text-align: left;
+    font-size: 3rem;
   }
   
 }
