@@ -443,6 +443,20 @@ body {
     font-size: .8rem;
   }
 
+  .about-main-info {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .about-index-page-container {
+    min-height: 100%;
+  }
+
+  .about-main-info img {
+    width: 20rem;
+    height: auto;
+  }
+
   
 }
 
