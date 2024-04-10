@@ -44,7 +44,8 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
+  max-width:100%;
   margin: 0;
   background-color: var(--offwhite);
   font-family: "Montserrat", sans-serif;
@@ -392,7 +393,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: right;
-    width: fit-content;
   }
   
   .links {
