@@ -446,10 +446,12 @@ body {
   .about-main-info {
     flex-direction: column;
     height: 100%;
+    width: 100%;
   }
 
   .about-index-page-container {
     min-height: 100%;
+    width: 100%;
   }
 
   .about-main-info img {
