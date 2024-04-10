@@ -412,6 +412,7 @@ body {
 
   .contact-index-page-container {
     height: auto;
+    margin: 0;
   }
 
   .work-links {
@@ -429,17 +430,17 @@ body {
 
   .contact-main-info {
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     max-width: 100%;
-    margin-left: 9rem;
+    margin-top: 5rem;
   }
 
   .link-work-name {
-    font-size: 1.8rem !important;
+    font-size: 1.5rem !important;
   }
 
   .gh-link {
-    font-size: .9rem;
+    font-size: .8rem;
   }
 
   
