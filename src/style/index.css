@@ -451,7 +451,7 @@ body {
     margin-left: 7rem;
   }
 
-  .about-index-page-container {
+  .about-index-page-container, .contact-index-page-container {
     min-height: 100%;
     width: 100%;
   }
@@ -461,9 +461,13 @@ body {
     height: auto;
   }
 
+  .contact-main-info {
+    margin-left: 10rem !important;
+    margin: auto 0;
+  }
+
+  .contact-main-info h1 {
+    font-size: 8rem !important;
+  }
   
 }
-
-
-
-
