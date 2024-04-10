@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   background-color: var(--offwhite);
   font-family: "Montserrat", sans-serif;
@@ -388,6 +388,10 @@ body {
 @media only screen and (max-width: 768px) {
   .main-info {
     margin: auto 2rem 5rem 2rem;
+  }
+
+  .index-page-container {
+    flex-direction: column;
   }
   
   .work-container {

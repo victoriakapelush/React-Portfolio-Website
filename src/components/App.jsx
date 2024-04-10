@@ -22,7 +22,7 @@ function App() {
       <div className='flex-row main-info'>
         <div className='flex-column name-box'>
           <h1 className='name'>Victoria Kapelush</h1>
-          <p className='occupation'>Software Developer / Website Designer </p>
+          <p className='occupation'>Software Developer / Website Designer</p>
           <p className='occupation'>Currently working as a freelance web developer</p>
         </div>
         <div>
