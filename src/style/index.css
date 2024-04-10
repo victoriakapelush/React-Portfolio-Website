@@ -386,38 +386,20 @@ body {
 /* Responsive Styles */
 
 @media only screen and (max-width: 768px) {
-  .main-info {
-    margin: auto 2rem 5rem 2rem;
-  }
 
-  .index-page-container {
+  .main-info {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
   }
   
-  .work-container {
-    margin-left: 2rem;
-    margin-right: 2rem;
+  .links {
+    text-align: left;
   }
   
-  .about-main-info {
-    margin: 2rem;
-  }
 }
 
-@media only screen and (max-width: 576px) {
-  .main-info {
-    margin: auto 1rem 5rem 1rem;
-  }
-  
-  .work-container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  
-  .about-main-info {
-    margin: 1rem;
-  }
-}
 
 
 
