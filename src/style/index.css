@@ -45,7 +45,7 @@ html {
 
 body {
   height: 100%;
-  max-width:100%;
+  max-width: 100%;
   margin: 0;
   background-color: var(--offwhite);
   font-family: "Montserrat", sans-serif;
@@ -148,6 +148,7 @@ body {
   gap: 4rem;
   align-self: flex-end;
   margin: auto 5rem 10rem 10rem;
+  max-width: 100%;
 }
 
 .name-box {
@@ -386,7 +387,7 @@ body {
 
 /* Responsive Styles */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
 
   .main-info {
     flex-direction: column;
