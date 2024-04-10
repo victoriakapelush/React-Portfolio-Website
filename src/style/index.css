@@ -387,24 +387,22 @@ body {
 
 /* Responsive Styles */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) and (min-width: 400px) {
 
   .main-info {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: left;
+    text-align: right;
     width: 100vw;
-    margin: 0 auto;
+    margin: auto 0;
+    padding-right: 3rem;
+    gap: 8rem;
   }
   
   .links {
     text-align: left;
     font-size: 3rem;
-  }
-
-  h1, p {
-    margin: 0 0;
   }
   
 }
