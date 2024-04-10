@@ -186,6 +186,7 @@ h1, p {
   color: var(--offwhite);
   justify-content: center;
   margin-left: 15rem;
+  height: 100%;
 }
 
 .contact-main-info h1 {
@@ -196,7 +197,7 @@ h1, p {
 }
 
 .contact-main-info p {
-  font-size: 13px;
+  font-size: .8rem;
   font-weight: 400;
   line-height: 1.9em;
   margin: 0;
@@ -408,6 +409,32 @@ body {
     text-align: left;
     font-size: 3rem;
   }
+
+  .contact-index-page-container {
+    height: auto;
+  }
+
+  .work-links {
+    margin: 0;
+    margin-bottom: 10rem;
+    height: auto;
+  }
+
+  .contact-main-info {
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    margin-top: 5rem;
+  }
+
+  .link-work-name {
+    font-size: 1.5rem !important;
+  }
+
+  .gh-link {
+    font-size: .8rem;
+  }
+
   
 }
 
