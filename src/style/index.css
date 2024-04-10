@@ -462,8 +462,9 @@ body {
   }
 
   .contact-main-info {
-    margin-left: 10rem !important;
+    margin-left: 7rem !important;
     margin: auto 0;
+    width: 100%;
   }
 
   .contact-main-info h1 {
