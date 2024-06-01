@@ -368,7 +368,7 @@ br {
 }
 
 .gh-link:hover {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 
 /* ANIMATION EFFECT ON LOAD */
