@@ -29,7 +29,7 @@ function Work() {
           <a className="gh-link" href="https://github.com/victoriakapelush/Beauty-Alchemy" target='_blank'>React Online Store</a>
           <a className="link-work-name" href="https://narrative-blog.onrender.com" target='_blank'>Social Media</a>
           <a className="gh-link" href="https://github.com/victoriakapelush/Social-Butterfly" target='_blank'>Full-Stack MERN Social Media App</a>
-          <a className="link-work-name" href="https://mksocials.netlify.app" target='_blank'>"MK Social"</a>
+          <a className="link-work-name" href="https://mksocials.com" target='_blank'>"MK Socials"</a>
           <a className="gh-link" href="https://github.com/victoriakapelush/Portfolio-Website" target='_blank'>CSS/JavaScript Portfolio Website</a>
           <a className="link-work-name" href="https://www.wooganyc.com" target='_blank'>"Wooga NYC"</a>
           <a className="gh-link">Website for a korean restaurant in NYC</a>
