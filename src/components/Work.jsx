@@ -52,14 +52,14 @@ function Work() {
             href="https://resumebuilderbyvk.netlify.app"
             target="_blank"
           >
-            Resume Builder React JS
+            Resume Builder
           </a>
           <a
             className="gh-link"
             href="https://github.com/victoriakapelush/CV-Application/tree/main"
             target="_blank"
           >
-            Full-Stack MERN Messaging App
+            React JS Application
           </a>
           <a
             className="link-work-name"
