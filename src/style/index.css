@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
 
 @font-face {
-  font-family: 'Grandslang Roman';
-  src: url('../assets/fonts/grandslang-roman.otf') format('opentype');
+  font-family: "Grandslang Roman";
+  src: url("../assets/fonts/grandslang-roman.otf") format("opentype");
 }
 
 :root {
@@ -61,9 +61,12 @@ body {
   font-family: "Grandslang roman", sans-serif;
   font-size: 10rem;
   font-weight: 300;
-  line-height: .95em;
+  line-height: 0.95em;
   text-decoration: none;
-  transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
+  transition:
+    transform 0.3s ease-in-out,
+    color 0.3s ease-in-out,
+    font-size 0.3s ease-in-out;
   display: block;
   position: relative;
 }
@@ -76,7 +79,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--charcoal);
 }
@@ -85,7 +88,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.9em;
   position: relative;
@@ -115,7 +118,7 @@ body {
   width: 1px;
   height: 100px;
   background-color: var(--charcoal);
-  margin-left: .1rem;
+  margin-left: 0.1rem;
   margin-top: 50px;
   margin-bottom: 80px;
   display: block;
@@ -158,7 +161,8 @@ body {
   margin-bottom: 1.2rem;
 }
 
-h1, p {
+h1,
+p {
   margin: 0.3rem 0;
 }
 
@@ -191,13 +195,15 @@ h1, p {
 
 .contact-main-info h1 {
   font-size: 12rem;
-  font-family: Grandslang roman, sans-serif;
+  font-family:
+    Grandslang roman,
+    sans-serif;
   margin-bottom: 1rem;
   margin: 0;
 }
 
 .contact-main-info p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.9em;
   margin: 0;
@@ -226,7 +232,7 @@ h1, p {
 
 .about-index-page-container {
   background-color: var(--offwhite);
-  color: var(--charcoal); 
+  color: var(--charcoal);
   height: 100%;
 }
 
@@ -241,14 +247,18 @@ h1, p {
 }
 
 .about-content h1 {
-  font-family: Grandslang roman, sans-serif;
+  font-family:
+    Grandslang roman,
+    sans-serif;
   font-size: 14vw;
   font-weight: 300;
   line-height: 1em;
 }
 
 .about-content h2 {
-  font-family: Grandslang roman, sans-serif;
+  font-family:
+    Grandslang roman,
+    sans-serif;
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.3em;
@@ -259,9 +269,10 @@ h1, p {
 .about-content p {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  line-height: 1.9em;  width: 80%;
+  line-height: 1.9em;
   width: 80%;
-  font-size: .9rem;
+  width: 80%;
+  font-size: 0.9rem;
 }
 
 .about-content h4 {
@@ -269,7 +280,9 @@ h1, p {
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-family: Grandslang roman, sans-serif;
+  font-family:
+    Grandslang roman,
+    sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.75em;
@@ -280,7 +293,9 @@ q {
   margin-top: 2rem;
   font-size: 36px;
   margin-bottom: 2rem;
-  font-family: Grandslang roman, sans-serif;
+  font-family:
+    Grandslang roman,
+    sans-serif;
   font-weight: 300;
   line-height: 1.3em;
   width: 80%;
@@ -291,7 +306,7 @@ q {
 }
 
 .ed-exp-header {
-  padding-bottom: .4rem;
+  padding-bottom: 0.4rem;
 }
 
 .cv {
@@ -300,10 +315,12 @@ q {
   letter-spacing: 1px;
   border-radius: 50px;
   padding: 1rem 2rem;
-  font-family: Grandslang roman, sans-serif;
+  font-family:
+    Grandslang roman,
+    sans-serif;
   font-size: 24px;
   font-weight: 400;
-  transition: padding .25s ease-in-out;
+  transition: padding 0.25s ease-in-out;
   width: 6rem;
   text-align: center;
   margin: 1rem 0;
@@ -316,7 +333,7 @@ q {
 }
 
 br {
-  height: .8rem;
+  height: 0.8rem;
 }
 
 /* WORK PAGE */
@@ -327,7 +344,8 @@ br {
   margin-right: 5rem;
 }
 
-.work-paragraph, .work-links {
+.work-paragraph,
+.work-links {
   justify-content: flex-start;
   align-self: flex-end;
   margin-top: auto;
@@ -341,12 +359,17 @@ br {
   text-align: left;
   text-transform: uppercase;
   border: 0 solid #000;
-  font-family: Grandslang roman, sans-serif;
+  font-family:
+    Grandslang roman,
+    sans-serif;
   font-size: 3rem;
   font-weight: 300;
-  line-height: .95em;
+  line-height: 0.95em;
   text-decoration: none;
-  transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
+  transition:
+    transform 0.3s ease-in-out,
+    color 0.3s ease-in-out,
+    font-size 0.3s ease-in-out;
   display: block;
   position: relative;
   padding-top: 4%;
@@ -378,20 +401,19 @@ body {
 }
 
 @keyframes FadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Responsive Styles */
 
 /* Cell Phones */
 
-@media only screen and (min-width: 480px) and (max-width: 767px){
-
+@media only screen and (min-width: 480px) and (max-width: 767px) {
   .main-info {
     flex-direction: column;
     justify-content: center;
@@ -406,7 +428,7 @@ body {
   .index-page-container {
     width: 100%;
   }
-  
+
   .links {
     text-align: left;
     font-size: 3rem;
@@ -442,7 +464,7 @@ body {
   }
 
   .gh-link {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .about-main-info {
@@ -453,7 +475,8 @@ body {
     margin-left: 7rem;
   }
 
-  .about-index-page-container, .contact-index-page-container {
+  .about-index-page-container,
+  .contact-index-page-container {
     min-height: 100%;
     width: 100%;
   }
@@ -473,17 +496,15 @@ body {
   .contact-main-info h1 {
     font-size: 6rem !important;
   }
-  
 }
 
 /* ipads */
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-
   .index-page-container {
     width: 100%;
   }
-  
+
   .links {
     font-size: 5rem;
   }
@@ -518,7 +539,7 @@ body {
   }
 
   .gh-link {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .about-main-info {
@@ -529,7 +550,8 @@ body {
     margin-left: 7rem;
   }
 
-  .about-index-page-container, .contact-index-page-container {
+  .about-index-page-container,
+  .contact-index-page-container {
     min-height: 100%;
     width: 100%;
   }
@@ -548,22 +570,21 @@ body {
   .contact-main-info p {
     margin: 0 !important;
   }
-
 }
 
 /* large screens */
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-
   .index-page-container {
     width: 100%;
   }
-  
+
   .links {
     font-size: 8rem;
   }
 
-  .about-index-page-container, .contact-index-page-container {
+  .about-index-page-container,
+  .contact-index-page-container {
     min-height: 100%;
     width: 100%;
   }
