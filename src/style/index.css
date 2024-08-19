@@ -442,11 +442,11 @@ body {
 
   .about-main-info {
     max-width: 100%;
-    margin-left: 3rem;
+    margin-left: 5rem;
   }
 
   .headers-container {
-    margin: 0 !important;
+    margin: 0;
   }
 
   .main-info {
@@ -479,11 +479,11 @@ body {
 
   .about-main-info {
     max-width: 100%;
-    margin-left: 3rem;
+    margin-left: 5rem;
   }
 
   .headers-container {
-    margin: 0 !important;
+    margin: 0;
   }
 
   .main-info {
@@ -516,11 +516,11 @@ body {
 
   .about-main-info {
     max-width: 100%;
-    margin-left: 3rem;
+    margin-left: 5rem;
   }
 
   .headers-container {
-    margin: 0 !important;
+    margin: 0;
   }
 
   .main-info {
@@ -548,7 +548,7 @@ body {
   }
 
   .contact-main-info {
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
 
   .about-main-info {
@@ -557,7 +557,7 @@ body {
   }
 
   .headers-container {
-    margin: 0 !important;
+    margin: 0;
   }
 
   .main-info {
