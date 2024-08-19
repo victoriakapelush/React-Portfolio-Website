@@ -20,6 +20,10 @@
   --new-pink: #ff94c1;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .index-page-container {
   justify-content: space-between;
   max-width: 100%;
@@ -421,27 +425,60 @@ body {
   }
 }
 
+/* Extra small screens (phones, small tablets) */
+@media (max-width: 480px) {
+  .work-paragraph {
+    margin-bottom: 1.5rem;
+  }
+
+  .work-container,
+  .contact-main-info,
+  .about-main-info {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .about-main-info,
+  .index-page-container {
+    max-width: 100%;
+  }
+}
+
+/* Very small screens (large phones, small tablets) */
+@media (max-width: 600px) {
+  .work-paragraph {
+    margin-bottom: 1.5rem;
+  }
+
+  .work-container,
+  .contact-main-info,
+  .about-main-info {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .about-main-info,
+  .index-page-container {
+    max-width: 90%;
+  }
+}
+
 /* Small screens (tablets in portrait mode) */
 @media (max-width: 768px) {
   .work-paragraph {
     margin-bottom: 2rem;
   }
 
-  .work-container {
-    margin-left: 7rem;
-  }
-
-  .contact-main-info {
-    margin-left: 6rem;
-  }
-
+  .work-container,
+  .contact-main-info,
   .about-main-info {
-    max-width: 100%;
-    margin-left: 7rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
+  .about-main-info,
   .index-page-container {
-    max-width: 70%;
+    max-width: 80%;
   }
 }
 
@@ -451,68 +488,15 @@ body {
     margin-bottom: 2rem;
   }
 
-  .work-container {
-    margin-left: 7rem;
-  }
-
-  .contact-main-info {
-    margin-left: 6rem;
-  }
-
+  .work-container,
+  .contact-main-info,
   .about-main-info {
-    max-width: 100%;
-    margin-left: 7rem;
+    margin-left: 4rem;
   }
 
+  .about-main-info,
   .index-page-container {
-    max-width: 70%;
+    max-width: 85%;
   }
 }
 
-/* Very small screens (large phones, small tablets) */
-@media (max-width: 600px) {
-  .work-paragraph {
-    margin-bottom: 2rem;
-  }
-
-  .work-container {
-    margin-left: 7rem;
-  }
-
-  .contact-main-info {
-    margin-left: 6rem;
-  }
-
-  .about-main-info {
-    max-width: 100%;
-    margin-left: 7rem;
-  }
-
-  .index-page-container {
-    max-width: 70%;
-  }
-}
-
-/* Extra small screens (phones) */
-@media (max-width: 480px) {
-  .work-paragraph {
-    margin-bottom: 2rem;
-  }
-
-  .work-container {
-    margin-left: 7rem;
-  }
-
-  .contact-main-info {
-    margin-left: 6rem;
-  }
-
-  .about-main-info {
-    max-width: 100%;
-    margin-left: 7rem;
-  }
-
-  .index-page-container {
-    max-width: 70%;
-  }
-}
