@@ -1,8 +1,12 @@
 /* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
-import image from "../assets/images/my-photo.jpg";
+import React, { useEffect } from "react";
 
 function About() {
+  useEffect(() => {
+    document.title = "Victoria Kapelush / About";
+  });
+
   return (
     <div className="flex-row about-index-page-container">
       <div className="flex-column nav-items-container">
@@ -16,7 +20,7 @@ function About() {
         </div>
         <p className="copyright nav-left-item">©/2024</p>
       </div>
-      <div className="flex-row about-main-info about-main-mobile">
+      <div className="flex-row about-main-info">
         <div className="about-content flex-column">
           <h1>About</h1>
           <h2>I'm Victoria. A developer, designer and problem solver.</h2>
@@ -61,7 +65,6 @@ function About() {
           </a>
           <br></br>
         </div>
-        <img src={image} />
       </div>
     </div>
   );

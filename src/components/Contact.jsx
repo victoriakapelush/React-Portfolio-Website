@@ -1,7 +1,12 @@
 /* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
 
 function Contact() {
+  useEffect(() => {
+    document.title = "Victoria Kapelush / Contact";
+  });
+
   return (
     <div className="flex-row contact-index-page-container">
       <div className="flex-column nav-items-container">
@@ -17,7 +22,7 @@ function Contact() {
           © / 2024
         </p>
       </div>
-      <div className="flex-column contact-main-info contact-main-mobile">
+      <div className="flex-column contact-main-info">
         <h1>Hello.</h1>
         <p className="paragraph">
           Got a vision but need a helping hand to make it a reality? <br />

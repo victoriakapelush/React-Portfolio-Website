@@ -1,7 +1,12 @@
 /* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
 
 function Work() {
+  useEffect(() => {
+    document.title = "Victoria Kapelush / Work";
+  });
+
   return (
     <div className="flex-row contact-index-page-container">
       <div className="flex-column nav-items-container">

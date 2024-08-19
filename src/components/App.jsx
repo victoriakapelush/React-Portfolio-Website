@@ -35,7 +35,9 @@ function App() {
           </div>
           <div className="border"></div>
         </div>
-        <p className="copyright nav-left-item">© / 2024</p>
+        <div className="nav-left-item">
+          <p className="copyright">© / 2024</p>
+        </div>
       </div>
       <div className="flex-row main-info">
         <div className="flex-column name-box">
@@ -45,7 +47,7 @@ function App() {
             Currently working as a freelance web developer
           </p>
         </div>
-        <div>
+        <div className="headers-container">
           <Link to="/work" className="links">
             Work
           </Link>
