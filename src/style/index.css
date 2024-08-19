@@ -442,11 +442,11 @@ body {
 
   .about-main-info {
     max-width: 100%;
-    margin-left: 7rem;
+    margin-left: 3rem;
   }
 
   .headers-container {
-    margin: 0;
+    margin: 0 !important;
   }
 
   .main-info {
@@ -479,11 +479,11 @@ body {
 
   .about-main-info {
     max-width: 100%;
-    margin-left: 7rem;
+    margin-left: 3rem;
   }
 
   .headers-container {
-    margin: 0;
+    margin: 0 !important;
   }
 
   .main-info {
@@ -516,11 +516,11 @@ body {
 
   .about-main-info {
     max-width: 100%;
-    margin-left: 7rem;
+    margin-left: 3rem;
   }
 
   .headers-container {
-    margin: 0;
+    margin: 0 !important;
   }
 
   .main-info {
@@ -553,11 +553,11 @@ body {
 
   .about-main-info {
     max-width: 100%;
-    margin-left: 7rem;
+    margin-left: 3rem;
   }
 
   .headers-container {
-    margin: 0;
+    margin: 0 !important;
   }
 
   .main-info {
@@ -569,6 +569,6 @@ body {
   }
 
   .contact-main-info {
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 }
