@@ -208,7 +208,7 @@ p {
 }
 
 .contact-main-info h1 {
-  font-size: clamp(4rem, 5vw, 12rem);
+  font-size: clamp(4rem, 15vw, 12rem);
   font-family:
     Grandslang roman,
     sans-serif;
@@ -333,11 +333,10 @@ q {
   font-family:
     Grandslang roman,
     sans-serif;
-  font-size: clamp(16px, 1vw, 24px);
+  font-size: clamp(16px, 1.4vw, 24px);
   font-weight: 400;
   transition: padding 0.25s ease-in-out;
-  max-width: 6rem;
-  min-width: 5rem;
+  width: fit-content;
   text-align: center;
   margin: 1rem 0;
 }
