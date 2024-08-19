@@ -333,10 +333,11 @@ q {
   font-family:
     Grandslang roman,
     sans-serif;
-  font-size: clamp(18px, 1vw, 24px);
+  font-size: clamp(16px, 1vw, 24px);
   font-weight: 400;
   transition: padding 0.25s ease-in-out;
   max-width: 6rem;
+  min-width: 5rem;
   text-align: center;
   margin: 1rem 0;
 }
@@ -437,7 +438,7 @@ body {
   }
 
   .contact-main-info {
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
 
   .about-main-info {
@@ -474,7 +475,7 @@ body {
   }
 
   .contact-main-info {
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
 
   .about-main-info {
@@ -516,7 +517,7 @@ body {
 
   .about-main-info {
     max-width: 100%;
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
 
   .headers-container {
