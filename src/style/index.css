@@ -439,6 +439,10 @@ body {
     max-width: 100%;
     margin-left: 7rem;
   }
+
+  .index-page-container {
+    max-width: 70%;
+  }
 }
 
 /* Medium screens (tablets in landscape mode, small desktops) */
@@ -458,6 +462,10 @@ body {
   .about-main-info {
     max-width: 100%;
     margin-left: 7rem;
+  }
+
+  .index-page-container {
+    max-width: 70%;
   }
 }
 
@@ -479,6 +487,10 @@ body {
     max-width: 100%;
     margin-left: 7rem;
   }
+
+  .index-page-container {
+    max-width: 70%;
+  }
 }
 
 /* Extra small screens (phones) */
@@ -498,5 +510,9 @@ body {
   .about-main-info {
     max-width: 100%;
     margin-left: 7rem;
+  }
+
+  .index-page-container {
+    max-width: 70%;
   }
 }
