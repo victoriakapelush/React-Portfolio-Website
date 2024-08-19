@@ -60,7 +60,7 @@ body {
   text-transform: uppercase;
   border: 0 solid #000;
   font-family: "Grandslang roman", sans-serif;
-  font-size: clamp(5rem, 10vw, 15rem);
+  font-size: clamp(3rem, 10vw, 15rem);
   font-weight: 300;
   line-height: 0.95em;
   text-decoration: none;
@@ -425,60 +425,24 @@ body {
   }
 }
 
-/* Extra small screens (phones, small tablets) */
-@media (max-width: 480px) {
-  .work-paragraph {
-    margin-bottom: 1.5rem;
-  }
-
-  .work-container,
-  .contact-main-info,
-  .about-main-info {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .about-main-info,
-  .index-page-container {
-    max-width: 100%;
-  }
-}
-
-/* Very small screens (large phones, small tablets) */
-@media (max-width: 600px) {
-  .work-paragraph {
-    margin-bottom: 1.5rem;
-  }
-
-  .work-container,
-  .contact-main-info,
-  .about-main-info {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
-  .about-main-info,
-  .index-page-container {
-    max-width: 90%;
-  }
-}
-
 /* Small screens (tablets in portrait mode) */
 @media (max-width: 768px) {
   .work-paragraph {
     margin-bottom: 2rem;
   }
 
-  .work-container,
-  .contact-main-info,
-  .about-main-info {
-    margin-left: 3rem;
-    margin-right: 3rem;
+  .work-container {
+    margin-left: 7rem;
+    gap: 1rem;
   }
 
-  .about-main-info,
-  .index-page-container {
-    max-width: 80%;
+  .contact-main-info {
+    margin-left: 6rem;
+  }
+
+  .about-main-info {
+    max-width: 100%;
+    margin-left: 7rem;
   }
 }
 
@@ -488,15 +452,59 @@ body {
     margin-bottom: 2rem;
   }
 
-  .work-container,
-  .contact-main-info,
-  .about-main-info {
-    margin-left: 4rem;
+  .work-container {
+    margin-left: 7rem;
+    gap: 1rem;
   }
 
-  .about-main-info,
-  .index-page-container {
-    max-width: 85%;
+  .contact-main-info {
+    margin-left: 6rem;
+  }
+
+  .about-main-info {
+    max-width: 100%;
+    margin-left: 7rem;
   }
 }
 
+/* Very small screens (large phones, small tablets) */
+@media (max-width: 600px) {
+  .work-paragraph {
+    margin-bottom: 2rem;
+  }
+
+  .work-container {
+    margin-left: 7rem;
+    gap: 1rem;
+  }
+
+  .contact-main-info {
+    margin-left: 6rem;
+  }
+
+  .about-main-info {
+    max-width: 100%;
+    margin-left: 7rem;
+  }
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 480px) {
+  .work-paragraph {
+    margin-bottom: 2rem;
+  }
+
+  .work-container {
+    margin-left: 7rem;
+    gap: 1rem;
+  }
+
+  .contact-main-info {
+    margin-left: 6rem;
+  }
+
+  .about-main-info {
+    max-width: 100%;
+    margin-left: 7rem;
+  }
+}
