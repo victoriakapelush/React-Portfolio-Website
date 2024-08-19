@@ -208,7 +208,7 @@ p {
 }
 
 .contact-main-info h1 {
-  font-size: 12rem;
+  font-size: clamp(4rem, 5vw, 12rem);
   font-family:
     Grandslang roman,
     sans-serif;
@@ -444,6 +444,18 @@ body {
     max-width: 100%;
     margin-left: 7rem;
   }
+
+  .headers-container {
+    margin: 0;
+  }
+
+  .main-info {
+    gap: 2rem;
+  }
+
+  .work-links {
+    margin-right: 0;
+  }
 }
 
 /* Medium screens (tablets in landscape mode, small desktops) */
@@ -464,6 +476,18 @@ body {
   .about-main-info {
     max-width: 100%;
     margin-left: 7rem;
+  }
+
+  .headers-container {
+    margin: 0;
+  }
+
+  .main-info {
+    gap: 2rem;
+  }
+
+  .work-links {
+    margin-right: 0;
   }
 }
 
@@ -486,6 +510,18 @@ body {
     max-width: 100%;
     margin-left: 7rem;
   }
+
+  .headers-container {
+    margin: 0;
+  }
+
+  .main-info {
+    gap: 2rem;
+  }
+
+  .work-links {
+    margin-right: 0;
+  }
 }
 
 /* Extra small screens (phones) */
@@ -506,5 +542,17 @@ body {
   .about-main-info {
     max-width: 100%;
     margin-left: 7rem;
+  }
+
+  .headers-container {
+    margin: 0;
+  }
+
+  .main-info {
+    gap: 2rem;
+  }
+
+  .work-links {
+    margin-right: 0;
   }
 }
