@@ -50,7 +50,7 @@ function Work() {
             href="https://github.com/victoriakapelush/Narrative"
             target="_blank"
           >
-            Full-Stack MERN API Blog App
+            Full-Stack MERN Blog App
           </a>
           <a
             className="link-work-name"
@@ -64,25 +64,11 @@ function Work() {
             href="https://github.com/victoriakapelush/CV-Application/tree/main"
             target="_blank"
           >
-            React JS Application
+            React Application
           </a>
           <a
             className="link-work-name"
-            href="https://beauty-alchemy.netlify.app"
-            target="_blank"
-          >
-            "Beauty Alchemy"
-          </a>
-          <a
-            className="gh-link"
-            href="https://github.com/victoriakapelush/Beauty-Alchemy"
-            target="_blank"
-          >
-            React Online Store
-          </a>
-          <a
-            className="link-work-name"
-            href="https://narrative-blog.onrender.com"
+            href="https://x-social-jvsi.onrender.com"
             target="_blank"
           >
             Social Media

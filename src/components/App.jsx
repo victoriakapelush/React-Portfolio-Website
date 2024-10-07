@@ -44,7 +44,7 @@ function App() {
           <h1 className="name">Victoria Kapelush</h1>
           <p className="occupation">Software Developer / Website Designer</p>
           <p className="occupation">
-            Currently working as a freelance web developer
+            Growing my expertise through hands-on projects
           </p>
         </div>
         <div className="headers-container">
