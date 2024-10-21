@@ -27,10 +27,10 @@ function About() {
           <p>
             One of the primary drivers of my choice on why I became a software
             developer was the ability to create. As a developer, I found an
-            expressive outlet where my ideas could transcend the realm of
-            imagination and materialize into tangible, functional solutions. The
+            expressive outlet where my ideas could go beyond the imagination 
+            and materialize into tangible, functional solutions. The
             power to bring concepts to life through code fascinated me. It's the
-            artistry of problem-solving, algorithms, and well-structured code
+            craft of problem-solving, algorithms, and well-structured code
             that continually inspire my journey.
           </p>
           <p>This is one of my favourite quotes (by Chris Pine):</p>
@@ -60,7 +60,7 @@ function About() {
             JavaScript / HTML and CSS / ReactJS / Node.js and Express / Graphic
             Design
           </p>
-          <a href="/" className="cv">
+          <a href="../public/Victoria-Kapelush-Resume-Software-Developer.pdf" className="cv" target="_blank" rel="noopener noreferrer">
             My CV
           </a>
           <br></br>
