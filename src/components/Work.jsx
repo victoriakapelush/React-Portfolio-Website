@@ -102,6 +102,20 @@ function Work() {
             "Wooga NYC"
           </a>
           <a className="gh-link">Website for a korean restaurant in NYC</a>
+          <a
+            className="link-work-name"
+            href="https://photo-tagging-app-1.onrender.com"
+            target="_blank"
+          >
+            "Where is Waldo?"
+          </a>
+          <a
+            className="gh-link"
+            href="https://github.com/victoriakapelush/Photo-Tagging-App"
+            target="_blank"
+          >
+            React Photo Tagging App
+          </a>
         </div>
       </div>
     </div>
